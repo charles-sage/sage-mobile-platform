@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="dashboard">
+		<Label class="label">Home View</Label>
+	</View>
+</Alloy>

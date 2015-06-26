@@ -1,0 +1,54 @@
+"#index": {
+	top: 20,
+	left: 0,
+	backgroundColor: "#FFFFFF"
+}
+
+"#mainview": {
+	left: 0,
+	zIndex: 20,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#menuview": {
+	top: 0,
+	left: 0,
+	width: 200,
+	height: Titanium.UI.FILL,
+	zIndex: 10,
+	backgroundColor: "#000000"
+}
+
+"#content": {
+	left: 0,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	top: 40,
+	backgroundColor: '#FFFFFF'
+}
+
+"#navbar": {
+	top: 0,
+	left: 0,
+	height: 40,
+	width: Ti.UI.FILL,
+	backgroundColor: "#E0E1DD"
+}
+
+"#menubutton": {
+	left: 10,
+	top: 10,
+	width: 25,
+	height: 20,
+	tintColor: "#41A940",
+	color: "#41A940",
+	backgroundColor: "transparent",
+	font: {
+		fontFamily: "sageicons",
+		fontSize: 20,
+		fontWeight: "bold"
+	},
+	title: "\ue002"
+}
+

@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="detail">
+		<View id="detailView">
+			<View id="navbar">
+				<View id="header">
+					<Label class="titleLabel left" id="title"/>
+				</View>
+				<Button id="navbutton" />
+			</View>
+			<View class="border" />
+			<View id="content">
+				<Label class="label" id="itemId"></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="index">
+			<View id="menuview">
+				<Require src="menu" id="menu" />
+			</View>
+			<View id="mainview">
+				<View id="navbar">
+					<View id="header" />
+					<Button id="menubutton" />
+				</View>
+				<View class="border" />
+				<View id="content" />
+			</View>
+	</Window>
+</Alloy>

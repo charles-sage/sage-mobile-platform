@@ -1,0 +1,27 @@
+"#master": {
+	top: 0,
+	height: Ti.UI.FILL,	
+}
+
+"#table": {
+	top: 0,
+	height: Ti.UI.SIZE,	
+	backgroundColor: "#FFFFFF",
+	separatorColor: "#9A9B9C",
+	backgroundColor: "#9A9B9C",
+}
+
+".row": {
+	backgroundColor: "#FFFFFF",
+	height: 30,
+	selectedBackgroundColor: "#41a940",
+	selectedColor: '#000000',
+	color: "#000000",
+	top: 2,
+	bottom: 2,
+	left: 12,
+	font: {
+		fontSize: 12
+	}
+}
+

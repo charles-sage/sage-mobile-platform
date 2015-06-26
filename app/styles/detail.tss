@@ -1,0 +1,45 @@
+"#detail": {
+	top: 20,
+	left: 300,
+	backgroundColor: "#FFFFFF"
+}
+
+"#detailView": {
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+
+"#content": {
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	top: 40,
+	backgroundColor: '#FFFFFF'
+}
+
+"#navbar": {
+	top: 0,
+	left: 0,
+	height: 40,
+	width: Ti.UI.FILL,
+	backgroundColor: "#E0E1DD"
+}
+
+"#navbutton": {
+	left: 10,
+	top: 10,
+	width: 25,
+	height: 20,
+	tintColor: "#41A940",
+	color: "#41A940",
+	backgroundColor: "transparent",
+	font: {
+		fontFamily: "sageicons",
+		fontSize: 20,
+		fontWeight: "bold"
+	},
+	title: "\ue01e"
+}
+
+

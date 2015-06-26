@@ -1,0 +1,60 @@
+<Alloy>
+	<TableView id="menuTableView">
+		<HeaderView>
+			<View class="tableHeaderView">
+				<Label class="tableHeaderLabel">Sage 50</Label>
+			</View>
+		</HeaderView>
+		<TableViewRow class="tableRow" id="dashboard" title="Dashboard" />
+		<TableViewSection>
+			<HeaderView>
+				<View class="sectionHeaderView">
+					<Label class="sectionHeaderLabel" text="Customers & Sales" />
+				</View>
+			</HeaderView>
+			<TableViewRow class="tableRow" id="basic" title="Customers" />
+			<TableViewRow class="tableRow" id="master" title="Quotes & Proposals" />
+			<TableViewRow class="tableRow" id="inactive" title="Sales Orders" />
+			<TableViewRow class="tableRow" id="inactive" title="Sales Invoices" />
+			<TableViewRow class="tableRow" id="inactive" title="Receipts" />
+		</TableViewSection>
+		<TableViewSection>
+			<HeaderView>
+				<View class="sectionHeaderView">
+					<Label class="sectionHeaderLabel" text="Vendors & Purchases" />
+				</View>
+			</HeaderView>
+			<TableViewRow class="tableRow" id="inactive" title="Vendors" />
+			<TableViewRow class="tableRow" id="inactive" title="Purchase Orders" />
+			<TableViewRow class="tableRow" id="inactive" title="Bills" />
+		</TableViewSection>
+		<TableViewSection>
+			<HeaderView>
+				<View class="sectionHeaderView">
+					<Label class="sectionHeaderLabel" text="Inventory & Services" />
+				</View>
+			</HeaderView>
+			<TableViewRow class="tableRow" id="inactive" title="Inventory Items" />
+			<TableViewRow class="tableRow" id="inactive" title="Services" />
+		</TableViewSection>
+		<TableViewSection>
+			<HeaderView>
+				<View class="sectionHeaderView">
+					<Label class="sectionHeaderLabel" text="Jobs" />
+				</View>
+			</HeaderView>
+			<TableViewRow class="tableRow" id="inactive" title="Employees" />
+			<TableViewRow class="tableRow" id="inactive" title="Jobs" />
+			<TableViewRow class="tableRow" id="inactive" title="Time Tracking" />
+		</TableViewSection>
+		<TableViewSection>
+			<HeaderView>
+				<View class="sectionHeaderView">
+					<Label class="sectionHeaderLabel" text="Options" />
+				</View>
+			</HeaderView>
+			<TableViewRow class="tableRow" id="inactive" title="Settings" />
+			<TableViewRow class="tableRow" id="inactive" title="Help" />
+		</TableViewSection>
+	</TableView>
+</Alloy>

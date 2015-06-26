@@ -1,0 +1,40 @@
+"Window": {
+	backgroundColor: "#FFFFFF",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	left: 0,
+	top: 0
+}
+
+"Label": {
+	color: "#000000",
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: 14
+	}
+}
+
+".titleLabel": {
+	color: '#007F64',
+	right: 0,
+	left: 0,
+	font: {
+		fontSize: 16,
+		fontWeight: 'bold'
+	}
+}
+
+".center": {
+	textAlign: 'center'
+}
+
+".left": {
+	left: 45,
+	textAlign: 'left'
+}
+
+".border": {
+	backgroundColor: "#41A940",
+	top: 38,
+	height: 2
+}

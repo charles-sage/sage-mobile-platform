@@ -1,0 +1,66 @@
+
+
+"#menuTableView": {
+	top: 0,
+	bottom: 0,
+	separatorColor: "#9A9B9C",
+	backgroundColor: "#9A9B9C"
+}
+
+".tableHeaderView": {
+	backgroundColor: "#007F64",
+	height: 40
+}
+
+".tableHeaderLabel": {
+	left: 5,
+	color: "#FFFFFF",
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	}
+}
+
+".sectionHeaderView": {
+	backgroundColor: "#4D4F53",
+	height: 20,
+	top: 1,
+	bottom: 1,
+	left: 5,
+	font: {
+		fontSize: 10,
+		fontWeight: 'bold'
+	},
+	color: '#E0E1DD'
+}
+
+".sectionHeaderLabel": {
+	top: 1,
+	bottom: 1,
+	left: 5,
+	font: {
+		fontSize: 10,
+		fontWeight: 'bold'
+	},
+	color: '#E0E1DD'
+}
+
+".tableRow": {
+	backgroundColor: "#9A9B9C",
+	height: 25,
+	selectedBackgroundColor: "#41a940",
+	selectedColor: '#FFFFFF',
+	color: "#FFFFFF",
+	top: 2,
+	bottom: 2,
+	left: 12,
+	font: {
+		fontSize: 12
+	}
+}
+
+"#inactive": {
+	color: "#4D4F53"
+}
+
